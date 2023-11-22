@@ -119,8 +119,8 @@ const item = {
 }
 const UserName: Ref<string> = ref("")
 /**
- * @author topu
- * @date 2023/5/16
+ * @author zcy
+ * @date 2023/12/1
  * @Description 展示相应路由
  * @return 返回值
  */
@@ -139,14 +139,13 @@ const updateUserName = () => {
   UserName.value = JSON.parse(localStorage.getItem('UserName')!)
 }
 /**
- * @author topu
- * @date 2023/5/17
+ * @author hjl
+ * @date 2023/12/2
  * @Description 退出登录
  * @return 返回值
  */
 const LogOut = () => {
   localStorage.removeItem('Token')
-  console.log(123)
   router.push('/')
 }
 onMounted(() => {

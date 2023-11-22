@@ -47,8 +47,8 @@ const router = createRouter({
   routes
 })
 /**
- * @author topu
- * @date 2023/5/16
+ * @author zcy
+ * @date 2023/12/1
  * @Description 定义路由拦截器
  * @param {type} [param] 参数说明
  * @return 返回值

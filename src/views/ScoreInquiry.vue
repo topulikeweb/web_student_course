@@ -108,8 +108,8 @@ const formData = ref({
   courseName: ''
 });
 /**
- * @author topu
- * @date 2023/5/17
+ * @author jhq
+ * @date 2023/12/11
  * @Description 新增
  * @return 返回值
  */
@@ -135,8 +135,8 @@ const submitFormAdd = () => {
   })
 };
 /**
- * @author topu
- * @date 2023/5/16
+ * @author gqy
+ * @date 2023/12/8
  * @Description 修改成绩
  * @return 返回值
  */
@@ -192,7 +192,7 @@ const getCourses = () => {
   });
 }
 /**
- * @author topu
+ * @author tjj
  * @date 2023/5/16
  * @Description 删除成绩
  * @return 返回值
@@ -216,8 +216,8 @@ const handleDelete = (index: any, row: any) => {
 }
 
 /**
- * @author topu
- * @date 2023/5/16
+ * @author zcy
+ * @date 2023/12/1
  * @Description 修改
  * @return 返回值
  */
@@ -232,8 +232,8 @@ const close = () => {
   isShowPage.value = false
 }
 /**
- * @author topu
- * @date 2023/5/17
+ * @author zcy
+ * @date 2023/12/1
  * @Description 查询不及格成绩
  * @return 返回值
  */

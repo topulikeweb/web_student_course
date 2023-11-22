@@ -47,7 +47,7 @@ const getCourses = () => {
       });
 };
 /**
- * @author topu
+ * @author mhy
  * @date 2023/5/17
  * @Description 选择课程，并提交课程
  * @return 返回值
